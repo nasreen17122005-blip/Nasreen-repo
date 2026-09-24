@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasreen | Personal Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #eef2ff, #f8f9ff);
+            color: #222;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0 0 10px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .detail-box {
+            padding: 18px;
+            background: #f4f5fb;
+            border-radius: 10px;
+        }
+
+        .detail-box strong {
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        ul {
+            line-height: 1.9;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 22px;
+            margin-top: 10px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .button:hover {
+            background: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 38px;
+            }
+
+            .details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Nasreen</h1>
+        <p>My Personal Website</p>
+    </header>
+
+    <div class="container">
+
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is <strong>Nasreen</strong>.
+                Welcome to my personal website.
+            </p>
+            <p>
+                This website is created using HTML and can be published
+                online using GitHub and Netlify.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>My Details</h2>
+
+            <div class="details">
+                <div class="detail-box">
+                    <strong>Name</strong>
+                    Nasreen
+                </div>
+
+                <div class="detail-box">
+                    <strong>Department</strong>
+                    Computer Science and Business Systems (CSBS)
+                </div>
+
+                <div class="detail-box">
+                    <strong>Website</strong>
+                    Personal Portfolio
+                </div>
+
+                <div class="detail-box">
+                    <strong>Technology</strong>
+                    HTML, CSS and JavaScript
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Web Development</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>My Project</h2>
+            <p>
+                <strong>Personal Website</strong>
+            </p>
+            <p>
+                A simple responsive website created with HTML and CSS
+                and deployed online through Netlify.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Contact</h2>
+            <p>You can add your email or other contact details here.</p>
+            <a class="button" href="https://github.com/" target="_blank">
+                GitHub
+            </a>
+            <a class="button" href="https://www.linkedin.com/in/nasreen-s-b9a504380/" target="_blank">
+                LinkedIn
+            </a>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2026 Nasreen. All rights reserved.
+    </footer>
+
+</body>
+</html>
+https://www.linkedin.com/in/nasreen-s-b9a504380/
